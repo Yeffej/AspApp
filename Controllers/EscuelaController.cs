@@ -6,12 +6,11 @@ namespace ASPnet_Course.Controllers
 {
     public class EscuelaController : Controller
     {
-        public IActionResult index() {
+        public IActionResult Index() {
             Escuela escuela = new Escuela();
-            escuela.ID = Guid.NewGuid().ToString();
-            escuela.Name = "Hight YeffSchool";
-            escuela.Direction = "República Dominicana";
-            escuela.annoFoundation = 2013;
+            escuela.Nombre = "Hight YeffSchool";
+            escuela.Dirección = "República Dominicana";
+            escuela.AñoDeCreación = 2013;
             return View(escuela);
         }
     }

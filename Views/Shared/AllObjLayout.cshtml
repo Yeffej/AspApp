@@ -1,0 +1,18 @@
+
+<table class="Table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Nombre</td>
+                <td>@item.UniqueId</td>
+            </tr>
+        }
+    </tbody>
+</table>

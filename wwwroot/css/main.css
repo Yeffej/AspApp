@@ -1,0 +1,22 @@
+/* TABLE STYLES 
+---------------------------------------------*/
+.Table {
+    margin: 20px 0;
+    font-size: .9em;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 3px 0px #000000de;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .Table tr td {
+    padding: 10px;
+  }
+  .Table thead {
+    font-size: 1.2em;
+    font-weight: 900;
+  }
+  .Table tbody {
+    color: #8d8d8d;
+  }
+  
+  /* ------------------------------------------- */
